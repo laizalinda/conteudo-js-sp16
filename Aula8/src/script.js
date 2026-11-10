@@ -1,0 +1,43 @@
+// Laços de Repetição
+
+// Laço For
+
+for (let contadora = 0; contadora <= 10; contadora++) {
+    console.log(contadora);
+}
+
+console.log("");
+
+let carros = ["Porche", "Audi", "Mercedes", "BMW"];
+let tamanhoArray = carros.length;
+
+console.log(carros[0]);
+
+for (let acumuladora = 0; acumuladora < tamanhoArray; acumuladora++) {
+    console.log(carros[acumuladora]);
+}
+
+console.log("");
+
+// Laço While
+
+let acumuladora = 0;
+
+while (acumuladora <= 10) {
+
+    console.log(acumuladora);
+
+    acumuladora++;
+
+}
+
+console.log("");
+
+// Laço do While
+
+let acumuladora2 = 0;
+
+do {
+    console.log(acumuladora2);
+    acumuladora2++;
+} while (acumuladora2 <= 10);
